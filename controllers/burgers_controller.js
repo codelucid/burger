@@ -9,7 +9,7 @@ let burger = require("../models/burger.js");
 router.get("/", function(request, response) {
     burger.selectAll(function(data) {
         var hbsObject = {
-            burger: data
+            burgers: data
         };
         console.log(hbsObject);
         response.render("index", hbsObject);
@@ -44,4 +44,17 @@ router.put("api/burgers/:id", function(request, response) {
     });
 });
 
+router.delete("/api/burgers/:id", function(request, response) {
+    let condition = "id = " + request.params.id;
+
+    burger.delete(condition, function(result) {
+        if (result.affectedRows == 0) {
+            // If the rows weren't changed, then the ID must not exist, so 404
+            return response.status(404).end();
+        } else {
+            response.status(200).end();
+        }
+    });
+});
+// This exports routes for server.js to use
 module.exports = router;

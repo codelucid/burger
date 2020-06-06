@@ -1,4 +1,4 @@
-let connection = require("./connection.js");
+let connection = require("../config/connection.js");
 
 function printQuestionMarks(num) {
     var arr = [];
@@ -73,6 +73,18 @@ let orm = {
             cb(result);
         });
     },
-}
+    delete: function(table, condition, cb) {
+        let queryString = "DELETE FROM " + table;
+        queryString += " WHERE ";
+        queryString += condition;
 
+        connection.query(queryString, function(err, result) {
+            if (err) {
+                throw err;
+            }
+            cb(result);
+        });
+    }
+};
+// This exports the orm object for the model (burger.js)
 module.exports = orm;
