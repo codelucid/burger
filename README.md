@@ -27,7 +27,10 @@ This is what the user needs to know about using the repo:
 Enjoy creating new burgers and planning your future meals!
 - The first step is to think about the burger you desire.
 ![first step](/stepOne.png)   
-
+- Add the burger that you want to try.
+![Add burger](/stepTwo.png)
+- After you have tried the burger, click on devoured button.
+![Devour Burger](/stepThree.png)
 ## License  
 
 The license for this project:
