@@ -37,6 +37,9 @@ Enjoy creating new burgers and planning your future meals!
 ![Devour Again](/stepFive.png)
 - Enjoy eating your dream burger, again!
 ![Eat Second Time](/stepSix.png)
+- Once you have had your fill, delete the burger.
+![Delete](/stepSeven.png)
+
 ## License  
 
 The license for this project:
