@@ -24,7 +24,7 @@ To install necessary dependencies, run the following command:
 ## Usage  
 
 This is what the user needs to know about using the repo:
-You can fork the repo and make CSS styling changes! Enjoy creating new burgers and planning your future meals!   
+Enjoy creating new burgers and planning your future meals!   
 
 ## License  
 
