@@ -29,8 +29,10 @@ Enjoy creating new burgers and planning your future meals!
 ![first step](/stepOne.png)   
 - Add the burger that you want to try.
 ![Add burger](/stepTwo.png)
-- After you have tried the burger, click on devoured button.
+- After you have tried the burger, click on "devoured" button.
 ![Devour Burger](/stepThree.png)
+- If the burger was amazing, click the "eat again" button.
+![Eat Again](/stepFour.png)
 ## License  
 
 The license for this project:
