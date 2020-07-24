@@ -24,7 +24,9 @@ To install necessary dependencies, run the following command:
 ## Usage  
 
 This is what the user needs to know about using the repo:
-Enjoy creating new burgers and planning your future meals!   
+Enjoy creating new burgers and planning your future meals!
+- The first step is to think about the burger you desire.
+![first step](/stepOne.png)   
 
 ## License  
 
