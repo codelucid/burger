@@ -35,6 +35,8 @@ Enjoy creating new burgers and planning your future meals!
 ![Eat Again](/stepFour.png)
 - Now your dream burger is ready to be eaten, again.
 ![Devour Again](/stepFive.png)
+- Enjoy eating your dream burger, again!
+![Eat Second Time](/stepSix.png)
 ## License  
 
 The license for this project:
