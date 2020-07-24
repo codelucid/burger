@@ -33,6 +33,8 @@ Enjoy creating new burgers and planning your future meals!
 ![Devour Burger](/stepThree.png)
 - If the burger was amazing, click the "eat again" button.
 ![Eat Again](/stepFour.png)
+- Now your dream burger is ready to be eaten, again.
+![Devour Again](/stepFive.png)
 ## License  
 
 The license for this project:
